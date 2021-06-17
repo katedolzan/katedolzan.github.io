@@ -41728,6 +41728,9 @@ label input[type="checkbox"] {
         .modal-dialog {
           width: 30%;
         }
+        .circle {
+          padding-right: 70px;
+        }        
     } 
 
 form.is-readonly .btn-save {
