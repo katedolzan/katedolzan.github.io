@@ -41582,7 +41582,7 @@ color: grey;
 /* 5 columns, percentage width */
 .grid-item,
 .grid-sizer {
-  width: 17%;
+  width: auto;
 }
 
 @media only screen and (max-width: 600px) {
