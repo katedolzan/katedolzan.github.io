@@ -47,13 +47,10 @@
   <div class="container">
     <section id="section01" data-bgcolor="#5F64E2" data-textcolor="#fff">
       <img class="img-index" src="dist/img/hero2.png" alt="">
-      <div class="row justify-content-between">
-        <div class="col">
-    <div class="h1-index" data-scroll data-scroll-speed="3"><a class="scroll-btn"><span class="section1"></span>VISÃO</a></div>
-  </div>
-    <div class="col">
-    <div class="h1-index" data-scroll data-scroll-speed="3"><a class="scroll-btn" href="roadmap.html"><span class="section1"></span>ROADMAP</a></div>
-  </div>
+<div style="margin-top: 40rem;">
+      <p class="scroll-btn">VISÃO</p>
+      <p></p>
+      <span class="section1"></span>
 </div>
   </section>
     <section id="section02" data-bgcolor="#5F64E2" data-textcolor="#fff">
@@ -212,6 +209,14 @@ window.addEventListener("load", function () {
   });
 });
 
+</script>
+<script type="text/javascript">
+  $(function() {
+  $('a[href*=#]').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
+  });
+});
 </script>     
 
   </body>
