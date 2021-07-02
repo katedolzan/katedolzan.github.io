@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <link rel='shortcut icon' type='image/x-icon' href='brand/favicon.ico' />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Discover</title>
+
+    <!-- Bootstrap core CSS -->
+<link href="dist/css/bootstrap.css" rel="stylesheet">
+<link href="dist/css/main.css" rel="stylesheet">
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<link href="https://use.typekit.net/skn8ash.css" rel="stylesheet">
+
+
+  </head>
+  <body class="d-flex flex-column h-100">
+
+<main style="z-index: 3;">
+  <header class="p-3 bg-light">
+    <div class="parte">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="index.html" class="eco-link px-2 text-secondary"><img src="dist/img/logo.svg"></a></li>
+        </ul>
+
+        <div class="text-end">
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a type="button" href="index.html" class="menu-btn nav-link px-2"><img src="dist/img/visao.svg"> Visão</a></li> 
+          <li><a type="button" href="roadmap.html" class="menu-btn nav-link px-2"><img src="dist/img/roadmap.svg"> Roadmap</a></li>            
+          <li><a type="button" href="artigos.html" class="menu-btn nav-link px-2"><img src="dist/img/blog.svg"> Artigos</a></li>
+          <li><a type="button" href="ecossistema-geral.html" class="menu-btn nav-link px-2"><img src="dist/img/eco.svg"> Ecossistema</a></li>
+          <li><a type="button" href="ideias.html" class="menu-btn nav-link px-2"><img src="dist/img/ideias.svg"> Ideias e Pedidos</a></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+</main>
+
+  <div class="roadmap-visao-box">
+  <blockquote class="roadmap-visao-texto">IDEIAS E PEDIDOS</blockquote>
+</div>
+
+<div class="parte">
+  <div class="row justify-content-end">
+    <div class="col">
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="ideia-tab" data-bs-toggle="tab" data-bs-target="#ideia" type="button" role="tab" aria-controls="ideia" aria-selected="true">Ideias e Sugestões</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="concluido-tab" data-bs-toggle="tab" data-bs-target="#concluido" type="button" role="tab" aria-controls="concluido" aria-selected="false">Concluídas</button>
+  </li>
+</ul>
+</div>
+<div class="col-md-2 coluna-sugerir-btn">
+<!-- Button trigger modal -->
+<button type="button" class="btn sugerir-btn" data-bs-toggle="modal" data-bs-target="#nova-ideia"><img src="dist/img/plus-circle.svg"> Enviar Sugestão</button>
+</div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="nova-ideia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Enviar Nova Sugestão</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <textarea type="description" class="form-control input-opiniao" id="exampleFormControlTextarea1" rows="3" placeholder="O que você gostaria de ter ou fazer dentro da nossa plataforma? Como isso ajudaria você?"></textarea>
+      </div>
+      <div class="modal-footer row justify-content-between" style="--bs-gutter-x:0px;">
+          <div class="col-auto">
+            <p class="opiniao-texto">Para você, esta ideia / sugestão é...</p>
+          </div>
+          <div class="col-auto">
+<button class="opiniao-btn-1" data-toggle="tooltip" title="É legal, conveniente ou útil">Interessante</button>
+<button class="opiniao-btn-2" data-toggle="tooltip" title="Pode resolver uma grande necessidade">Importante</button>
+<button class="opiniao-btn-3" data-toggle="tooltip" title="Se não estiver no serviço, consideraria trocar de plataforma">Crítico</button>
+</div>
+      </div>
+      <div class="modal-footer row justify-content-between" style="--bs-gutter-x:0px;">
+          <div class="col">
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Insira seu Email Aqui...">
+          </div>
+          <div class="col-auto">
+<button type="button" class="btn sugerir-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Sugerir</button>
+</div>
+      </div>      
+    </div>
+  </div>
+</div>
+
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane fade show active" id="ideia" role="tabpanel" aria-labelledby="ideia-tab">
+<div class="categoria-ideia">
+  <p class="categoria-texto">Desenvolvimento</p>
+</div>
+  <!-- Primeira linha de infos -->
+<div class="row">
+   <div class="col-lg-3 col-6">
+   <!-- small card -->
+   <div class="small-box bg-white" type="button" data-bs-toggle="modal" data-bs-target="#detalhe-ideia">
+     <div class="card-titulo" id="titulo">
+      <strong>Ideia de funcionalidade aqui.</strong>
+    </div>
+      <div class="card-desc">Ideia de funcionalidade aqui. Agora imagine um titulo bem grande!!! Duplique o titulo de novooooo</div>
+      <div class="card-bot">
+        <a type="button" class="ideia-btn" >Veja Mais <img class="hand" src="dist/img/hand.png"></a>
+        </div>
+      </div>
+    </div>
+
+   <div class="col-lg-3 col-6">
+   <!-- small card -->
+   <div class="small-box bg-white" type="button" data-bs-toggle="modal" data-bs-target="#detalhe-ideia">
+     <div class="card-titulo" id="titulo">
+      <strong>Ideia de funcionalidade aqui.</strong>
+    </div>
+      <div class="card-desc">Ideia de funcionalidade aqui. Agora imagine um titulo bem grande!!! Duplique o titulo de novooooo</div>
+      <div class="card-bot">
+        <a type="button" class="ideia-btn" >Veja Mais <img class="hand" src="dist/img/hand.png"></a>
+        </div>
+      </div>
+    </div>
+
+   <div class="col-lg-3 col-6">
+   <!-- small card -->
+   <div class="small-box bg-white" type="button" data-bs-toggle="modal" data-bs-target="#detalhe-ideia">
+     <div class="card-titulo" id="titulo">
+      <strong>Ideia de funcionalidade aqui.</strong>
+    </div>
+      <div class="card-desc">Ideia de funcionalidade aqui. Agora imagine um titulo bem grande!!! Duplique o titulo de novooooo</div>
+      <div class="card-bot">
+        <a type="button" class="ideia-btn" >Veja Mais <img class="hand" src="dist/img/hand.png"></a>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+    <div class="categoria-ideia">
+  <p class="categoria-texto">Comunicação</p>
+</div>
+  <!-- Primeira linha de infos -->
+<div class="row">
+   <div class="col-lg-3 col-6">
+   <!-- small card -->
+   <div class="small-box bg-white" type="button" data-bs-toggle="modal" data-bs-target="#detalhe-ideia">
+     <div class="card-titulo" id="titulo">
+      <strong>Ideia de funcionalidade aqui.</strong>
+    </div>
+      <div class="card-desc">Ideia de funcionalidade aqui. Agora imagine um titulo bem grande!!! Duplique o titulo de novooooo</div>
+      <div class="card-bot">
+        <a type="button" class="ideia-btn" >Veja Mais <img class="hand" src="dist/img/hand.png"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="tab-pane fade" id="concluido" role="tabpanel" aria-labelledby="concluido-tab">
+
+<div class="categoria-ideia">
+  <p class="categoria-texto">Interno</p>
+</div>
+  <!-- Primeira linha de infos -->
+<div class="row">
+   <div class="col-lg-3 col-6">
+   <!-- small card -->
+   <div class="small-box bg-white" type="button" data-bs-toggle="modal" data-bs-target="#detalhe-ideia">
+     <div class="card-titulo" id="titulo">
+      <strong>Ideia de funcionalidade aqui.</strong>
+    </div>
+      <div class="card-desc">Ideia de funcionalidade aqui. Agora imagine um titulo bem grande!!! Duplique o titulo de novooooo</div>
+      <div class="card-bot">
+        <a type="button" class="ideia-btn" >Veja Mais <img class="hand" src="dist/img/hand.png"></a>
+        </div>
+      </div>
+    </div>
+
+   <div class="col-lg-3 col-6">
+   <!-- small card -->
+   <div class="small-box bg-white" type="button" data-bs-toggle="modal" data-bs-target="#detalhe-ideia">
+     <div class="card-titulo" id="titulo">
+      <strong>Ideia de funcionalidade aqui.</strong>
+    </div>
+      <div class="card-desc">Ideia de funcionalidade aqui. Agora imagine um titulo bem grande!!! Duplique o titulo de novooooo</div>
+      <div class="card-bot">
+        <a type="button" class="ideia-btn" >Veja Mais <img class="hand" src="dist/img/hand.png"></a>
+        </div>
+      </div>
+    </div>
+
+   <div class="col-lg-3 col-6">
+   <!-- small card -->
+   <div class="small-box bg-white" type="button" data-bs-toggle="modal" data-bs-target="#detalhe-ideia">
+     <div class="card-titulo" id="titulo">
+      <strong>Ideia de funcionalidade aqui.</strong>
+    </div>
+      <div class="card-desc">Ideia de funcionalidade aqui. Agora imagine um titulo bem grande!!! Duplique o titulo de novooooo</div>
+      <div class="card-bot">
+        <a type="button" class="ideia-btn" >Veja Mais <img class="hand" src="dist/img/hand.png"></a>
+        </div>
+      </div>
+    </div>
+
+    </div>
+
+  </div>
+
+</div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="detalhe-ideia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Ideia de funcionalidade aqui.</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Ideia de funcionalidade aqui. Agora imagine um titulo bem grande!!! Duplique o titulo de novooooo
+      </div>
+      <div class="modal-data">Agosto 2021</div>
+      <div class="modal-footer row justify-content-between" style="--bs-gutter-x:0px;">
+          <div class="col-auto">
+            <p class="opiniao-texto">Para você, esta ideia / sugestão é...</p>
+          </div>
+          <div class="col-auto">
+<button class="opiniao-btn-1" data-toggle="tooltip" title="É legal, conveniente ou útil">Interessante</button>
+<button class="opiniao-btn-2" data-toggle="tooltip" title="Pode resolver uma grande necessidade">Importante</button>
+<button class="opiniao-btn-3" data-toggle="tooltip" title="Se não estiver no serviço, consideraria trocar de plataforma">Crítico</button>
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer py-3 mt-auto">
+  <div class="container text-center">
+    <span class="footer-desc">Feito com <img src="dist/img/footer.png"> na <img src="dist/img/ac-footer.png"></span>
+  </div>
+</footer>
+
+    <script src="dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript">
+$(document).ready(function() {
+    $("body").tooltip({ selector: '[data-toggle=tooltip]' });
+});
+</script>
+
+
+  </body>
+</html>

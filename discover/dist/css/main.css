@@ -719,7 +719,6 @@ section {
 }
  .timeline-item:nth-child(even) .timeline-content {
    float: right;
-   padding: 40px 30px 10px 30px;
 }
  .timeline-item:nth-child(even) .timeline-content .date {
    right: auto;
@@ -864,4 +863,172 @@ section {
 
 .hero {
   margin-bottom: 40px;
+}
+
+.small-box{
+    border-radius: 0.50rem;
+    margin: 30px;
+    min-width: 40vh;
+    min-height: 25vh;
+    box-shadow: 9px 9px 15px -9px rgb(74 82 150 / 15%);
+    display: block;
+    position: relative;
+    transition: 0.2s;
+}
+
+.small-box:hover {
+  transform: translate(0, -2px);
+  box-shadow: 0 10px 15px -5px rgb(85 91 255 / 20%);
+}
+
+.card-titulo {
+    padding: 15px;
+    font-size: 1rem;
+    border-bottom: 1px solid #c0cce275;
+    transition: 0.2s;
+}
+
+.small-box:hover > #titulo {
+  color: #555BFF;
+}
+
+.card-desc {
+    padding: 15px;
+    font-size: 13px;
+}
+
+.card-bot {
+    padding: 15px;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
+
+.categoria-texto {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #7d7d7d82;
+    position: relative;
+    overflow: hidden;
+}
+
+.categoria-texto:after {
+    display: inline-block;
+    content: "";
+    height: 1px;
+    background: #7d7d7d82;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    margin-top: -2px;
+    margin-left: 10px;
+}
+
+.categoria-ideia {
+    margin-top: 40px;
+}
+
+.ideia-btn {
+    box-shadow: 0 3px 11px -1px rgb(85 91 255 / 20%);
+    border-radius: 70px;
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9rem;
+    transition: 0.2s;
+}
+
+.hand {
+  width: 20%;
+}
+
+.eco-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #0d6efd;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.opiniao-btn-1 {
+  border: transparent;
+  border-radius: 5px;
+  background-color: #CDD8EB;
+  padding: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.opiniao-btn-1:hover {
+  background-color: #499CFC;
+  color: #fff;
+}
+
+.opiniao-btn-2 {
+  border: transparent;
+  border-radius: 5px;
+  background-color: #C0CCE2;
+  padding: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.opiniao-btn-2:hover {
+  background-color: #FFBE40;
+  color: #fff;
+}
+
+.opiniao-btn-3 {
+  border: transparent;
+  border-radius: 5px;
+  background-color: #9DB2D9;
+  padding: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.opiniao-btn-3:hover {
+  background-color: #F04F54;
+  color: #fff;
+}
+
+.opiniao-texto {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.modal-data {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 13px;
+    color: #7D7D7D;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.coluna-sugerir-btn {
+  align-self: center;
+  text-align-last: end;
+}
+
+.sugerir-btn {
+  background-color: #37c563;
+  color: white;
+  font-weight: 500;
+  right: 0;
+}
+
+.sugerir-btn:hover {
+  background-color: #1E9B45;
+  color: white;
+  font-weight: 500;
 }
