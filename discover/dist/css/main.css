@@ -1018,3 +1018,25 @@ section {
   color: white;
   font-weight: 500;
 }
+
+.artigo-card-titulo {
+  font-size: 2rem;
+  color: #555BFF;
+}
+
+.artigo-card-desc {
+    padding-top: 15px;
+    font-size: 13px;
+}
+
+.blog-box {
+  padding: 40px;
+  min-height: 35vh;
+}
+
+.artigo-card-bot {
+    padding: 30px;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+}
