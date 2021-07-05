@@ -13,7 +13,7 @@ header {
 }
 
 .parte {
-	margin: 100px;
+	margin: 30px;
 	margin-top: 0;
   margin-bottom: 0;
 }
@@ -848,8 +848,6 @@ section {
 
 .roadmap-visao-texto {
   text-align: center;
-  padding-left: 300px;
-  padding-right: 300px;
   font-size: 1.5rem;
   color: #fff;
 }

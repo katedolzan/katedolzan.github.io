@@ -21,28 +21,36 @@
   </head>
   <body class="d-flex flex-column h-100">
 
-<main style="z-index: 3;">
-  <header class="p-3 bg-light">
-    <div class="parte">
-      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="index.html" class="eco-link px-2 text-secondary"><img src="dist/img/logo.svg"></a></li>
-        </ul>
-
-        <div class="text-end">
-          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a type="button" href="index.html" class="menu-btn nav-link px-2"><img src="dist/img/visao.svg"> Visão</a></li> 
-          <li><a type="button" href="roadmap.html" class="menu-btn nav-link px-2"><img src="dist/img/roadmap.svg"> Roadmap</a></li>            
-          <li><a type="button" href="artigos.html" class="menu-btn nav-link px-2"><img src="dist/img/blog.svg"> Artigos</a></li>
-          <li><a type="button" href="ecossistema-geral.html" class="menu-btn nav-link px-2"><img src="dist/img/eco.svg"> Ecossistema</a></li>
-          <li><a type="button" href="ideias.html" class="menu-btn nav-link px-2"><img src="dist/img/ideias.svg"> Ideias e Pedidos</a></li>
-        </ul>
-        </div>
-      </div>
+<nav class="navbar sticky-top navbar-expand-lg" style="background-color: white;">
+  <div class="container-fluid">
+    <a class="navbar-brand eco-link" href="index.html"><img src="dist/img/logo.svg"></a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"><img src="dist/img/menu.svg"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+        <a class="menu-btn nav-link active" aria-current="page" href="index.html"><img src="dist/img/visao.svg"> Visão</a>
+        </li>
+        <li class="nav-item">
+        <a class="menu-btn nav-link" href="roadmap.html"><img src="dist/img/roadmap.svg"> Roadmap</a>
+      </li>
+      <li class="nav-item">
+        <a class="menu-btn nav-link" href="artigos.html"><img src="dist/img/blog.svg"> Artigos</a>
+      </li>
+      <li class="nav-item">
+        <a class="menu-btn nav-link" href="ecossistema-geral.html"><img src="dist/img/eco.svg"> Ecossistema</a>
+      </li>
+      <li class="nav-item">
+        <a class="menu-btn nav-link" href="ideias.html"><img src="dist/img/ideias.svg"> Ideias e Pedidos</a>
+      </li>
+      </ul>
     </div>
-  </header>
-</main>
+  </div>
+
+</nav>
+
+
 
   <div class="roadmap-visao-box">
   <blockquote class="roadmap-visao-texto">IDEIAS E PEDIDOS</blockquote>
@@ -60,7 +68,7 @@
   </li>
 </ul>
 </div>
-<div class="col-md-2 coluna-sugerir-btn">
+<div class="col-auto coluna-sugerir-btn">
 <!-- Button trigger modal -->
 <button type="button" class="btn sugerir-btn" data-bs-toggle="modal" data-bs-target="#nova-ideia"><img src="dist/img/plus-circle.svg"> Enviar Sugestão</button>
 </div>
@@ -106,7 +114,7 @@
 </div>
   <!-- Primeira linha de infos -->
 <div class="row">
-   <div class="col-lg-3 col-6">
+   <div class="col-md-3">
    <!-- small card -->
    <div class="small-box bg-white" type="button" data-bs-toggle="modal" data-bs-target="#detalhe-ideia">
      <div class="card-titulo" id="titulo">
@@ -119,7 +127,7 @@
       </div>
     </div>
 
-   <div class="col-lg-3 col-6">
+   <div class="col-md-3">
    <!-- small card -->
    <div class="small-box bg-white" type="button" data-bs-toggle="modal" data-bs-target="#detalhe-ideia">
      <div class="card-titulo" id="titulo">
@@ -132,7 +140,7 @@
       </div>
     </div>
 
-   <div class="col-lg-3 col-6">
+   <div class="col-md-3">
    <!-- small card -->
    <div class="small-box bg-white" type="button" data-bs-toggle="modal" data-bs-target="#detalhe-ideia">
      <div class="card-titulo" id="titulo">
@@ -152,7 +160,7 @@
 </div>
   <!-- Primeira linha de infos -->
 <div class="row">
-   <div class="col-lg-3 col-6">
+   <div class="col-md-3">
    <!-- small card -->
    <div class="small-box bg-white" type="button" data-bs-toggle="modal" data-bs-target="#detalhe-ideia">
      <div class="card-titulo" id="titulo">
@@ -174,7 +182,7 @@
 </div>
   <!-- Primeira linha de infos -->
 <div class="row">
-   <div class="col-lg-3 col-6">
+   <div class="col-md-3">
    <!-- small card -->
    <div class="small-box bg-white" type="button" data-bs-toggle="modal" data-bs-target="#detalhe-ideia">
      <div class="card-titulo" id="titulo">
@@ -187,7 +195,7 @@
       </div>
     </div>
 
-   <div class="col-lg-3 col-6">
+   <div class="col-md-3">
    <!-- small card -->
    <div class="small-box bg-white" type="button" data-bs-toggle="modal" data-bs-target="#detalhe-ideia">
      <div class="card-titulo" id="titulo">
@@ -200,7 +208,7 @@
       </div>
     </div>
 
-   <div class="col-lg-3 col-6">
+   <div class="col-md-3">
    <!-- small card -->
    <div class="small-box bg-white" type="button" data-bs-toggle="modal" data-bs-target="#detalhe-ideia">
      <div class="card-titulo" id="titulo">
