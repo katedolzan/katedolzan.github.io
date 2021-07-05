@@ -287,7 +287,12 @@ canvas {
 .navigation-circle {
   height: 200px;
   width: 200px;
-  margin-left: -20px;
+  margin-left: 50px;
+}
+
+.menu-graf {
+	margin-top: 3.6rem;
+  margin-left: 3.8rem;
 }
 
 .navigation-circle__list {
