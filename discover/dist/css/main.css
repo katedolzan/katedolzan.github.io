@@ -482,17 +482,11 @@ button {
     display: block;
     font: 10.5em 'Montserrat';
     width: 460px !important;
+    margin-top: -120px;
+    margin-bottom: -160px !important; 
 }
   }
-}
 
- .progress {
-   width: 100%;
-   max-width: 260px;
-   height: 6px;
-   background: #e1e4e8;
-   border-radius: 3px;
-   overflow: hidden;
 }
  .progress-bar {
    display: block;
